@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say Daler</title>
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="style/simple-line-icons.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <header class="min-vh-100 d-flex flex-column ">
+
+        <div class="header_bg">
+            <img class="header__bg_img" src="images/jefferson-santos-9SoCnyQmkzI-unsplash-scaled.jpg" alt="">
+        </div>
+
+        <div class="header__info flex-grow-1 d-flex flex-column justify-content-center">
+            <div class="intro overflow-hidden">
+                <div class="start wow slideInLeft">Привет, меня зовут Сайфудинов Далер и я</div>
+                <h1 class="intro__title wow bounceInDown">Frontend Web Developer</h1>
+                <div class="start wow slideInRight">добро пожаловать в мое портфолио</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav class="nav navbar navbar-expand-md">
+            <div class="container">
+                <a class="logo" href="#"><span class="logo__my">Сайфудинов</span> Далер</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="far fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="menu__link" href="#education">обучение</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__link" href="#work">работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__link" href="#scill">мои навыки</a>
+                        </li>
+                        <li class="nav-item dropdown d-flex flex-column align-items-start">
+                            <a class="menu__link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                контакты
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item"
+                                    href="mailto:dalersayfudinov8@gmail.com">dalersayfudinov8@gmail.com</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <section class="container position-relative profile-info">
+
+            <div id="education" class="row wow fadeInUp justify-content-center">
+                <article class="col-lg-10 d-flex flex-column align-items-center content">
+                    <h2 class="content__title ">Обучение</h2>
+                    <p class="content__text text-center col-lg-9 col-xs-12  ">Никто не зажигает лампу, чтобы спрятать
+                        ее за дверью:
+                        цель света - создать больше света, открыть глаза людям, раскрыть чудеса вокруг.</p>
+                </article>
+            </div>
+
+            <div class="row overflow-hidden">
+                <div class="col-lg-3 ">
+                    <div class="iconbox wow slideInLeft">
+                        <div class="iconbox-icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Обучение по видео</h3>
+                            <div class="iconbox-desc">
+                                Смотрел и обучался по бесплатным видео курсам, Изучил основы html и css.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 ">
+
+                    <div class="iconbox wow slideInLeft">
+                        <div class="iconbox-icon">
+                            <i class="fab fa-buffer"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Обучение по книгам</h3>
+                            <div class="iconbox-desc">
+                                Прочитал популярные книги по веб-программированию. Изучил JavaScript
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 ">
+
+                    <div class="iconbox wow slideInRight">
+                        <div class="iconbox-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Обучение в proweb</h3>
+                            <div class="iconbox-desc">
+                                Закрепил свои знания по веб-программированию в учебном центре PROWEB
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 ">
+
+                    <div class="iconbox wow slideInRight">
+                        <div class="iconbox-icon">
+                            <i class="fal fa-check-circle"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">стажировка</h3>
+                            <div class="iconbox-desc">
+                                Стажировался веб-разработчиком в Gornyak Pension 6 месяцев
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div id="work" class="row wow fadeInUp justify-content-center">
+                <article class="col-lg-10 d-flex flex-column align-items-center content">
+                    <h2 class="content__title">работы</h2>
+                    <p class="content__text text-center col-lg-9 col-xs-12">Чтобы написать чистый код, мы сначала пишем грязный код,
+                        а затем рефакторим его.</p>
+                </article>
+            </div>
+        </section>
+        <section id="portfolio" class="pfblock">
+            <div class="container">
+                <div class="row wow ">
+
+                    <div class="col-lg-4 col-xs-12 col-md-6 ">
+                        <div class="grid wow fadeInUp">
+                            <figure class="effect-bubba">
+                                <img src="images/ads.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2><a class="grid__pass" href="https://demodream.ru/">Demo dream</a></h2>
+                                    <p></p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-xs-12 col-md-6">
+
+                        <div class="grid wow fadeInUp">
+                            <figure class="effect-bubba">
+                                <img src="images/granit.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2><span><a class="grid__pass"
+                                                href="https://sadaler78.github.io/Granit/">Granit</a></span></h2>
+                                    <p></p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-xs-12 col-md-6">
+
+                        <div class="grid wow fadeInUp">
+                            <figure class="effect-bubba">
+                                <img src="images/mac.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2><a class="grid__pass" href="https://sadaler78.github.io/macintosh/">Macintosh
+                                            design</a></h2>
+                                    <p></p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-xs-12 col-md-6">
+
+                        <div class="grid wow fadeInUp">
+                            <figure class="effect-bubba">
+                                <img src="images/Untitled-1.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2> <a class="grid__pass" href="https://sadaler78.github.io/jsfood/">food 100</a>
+                                    </h2>
+                                    <p></p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-xs-12 col-md-6">
+
+                        <div class="grid wow fadeInUp">
+                            <figure class="effect-bubba">
+                                <img src="images/pizza.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2> <a class="grid__pass" href="https://sadaler78.github.io/pizza/">pizza</a> </h2>
+                                    <p></p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-xs-12 col-md-6">
+
+                        <div class="grid wow fadeInUp">
+                            <figure class="effect-bubba">
+                                <img src="images/BURGERjpg.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2> <a class="grid__pass" href="https://sadaler78.github.io/burger88/">Street
+                                            88</a>
+                                    </h2>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div><!-- .contaier -->
+
+        </section>
+
+        <section class="container">
+            <div id="scill" class="row   justify-content-center">
+                <article class="col-lg-10 wow fadeInUp d-flex flex-column align-items-center content">
+                    <h2 class="content__title wow slideInLeft">мои навыки</h2>
+                    <p class="content__text text-center col-lg-9 col-xs-12">Большинство хороших программистов делают свою работу не
+                        потому, что ожидают оплаты или признания, а потому что получают удовольствие от
+                        программирования.</p>
+                </article>
+                <div class="container d-flex justify-content-center">
+                    <div class="block__t wow bounceInDown  col-lg-6 col-xs-10">
+                        <p class="skills__design">Photoshop 90%</p>
+                        <div class="progress" style="height: 3px;">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="text">
+                            <p class="skills__deckription">Figma 85%</p>
+                            <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="skills__deckription">HTML 80%</p>
+                            <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="skills__deckription">CSS 75%</p>
+                            <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="skills__deckription">Bootstrap 90%</p>
+                            <div class="progress" style="height: 3px;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="text-hidden hidden">
+                                <p class="skills__deckription">БЭМ 95%</p>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                                <p class="skills__deckription">Git 65%</p>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="skills__deckription">JavaScript 60%</p>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="skills__deckription">Jquery 60%</p>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="skills__deckription">GULP 70%</p>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="skills__deckription">PHP 20%</p>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="skills__deckription">Wordpress 60%</p>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+              
+                <a href="#!" class="read-more">
+                    Read More
+                </a>
+            
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-column align-items-center wow fadeInUp">
+        <a class="logo" href="#"><span class="logo__my">Сайфудинов</span> Далер</a>
+        <ul class="menu d-flex flex-column flex-sm-row align-items-center list-unstyled">
+            <li><a href="#education" class="menu__link menu__link_margin">обучение</a></li>
+            <li><a href="#work" class="menu__link menu__link_margin">работы</a></li>
+            <li><a href="#scill" class="menu__link menu__link_margin">мои навыки</a></li>
+        </ul>
+        <ul class="menu d-flex flex-column flex-sm-row align-items-center list-unstyled">
+            <li><a href="mailto:dalersayfudinov8@gmail.com"
+                    class="menu__link  menu__link_margin_15 text-lowercase">dalersayfudinov8@gmail.com</a></li>
+        </ul>
+        <div id="earth"></div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100,
+                callback: function (box) {
+                    console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                }
+            }
+        );
+        wow.init();
+    </script>
+</body>
+
+</html>
